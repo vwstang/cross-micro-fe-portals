@@ -1,0 +1,29 @@
+{
+  "name": "cross-micro-fe-portals",
+  "version": "0.0.1",
+  "description": "Cross-microfrontend communication with portals demo",
+  "main": "src/server.js",
+  "scripts": {
+    "server": "nodemon --exec babel-node src/server.js",
+    "webpack": "webpack -wd",
+    "webpack-b": "webpack -p"
+  },
+  "author": "vwstang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
